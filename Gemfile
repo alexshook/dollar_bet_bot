@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem "rack", "~> 1.5.2"
+gem "rack"
 gem "sinatra"
+gem "sinatra-contrib"
 
 group :test do
   gem "rspec"
